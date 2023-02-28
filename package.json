@@ -1,0 +1,32 @@
+{
+  "name": "estudo-node-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasLeal/estudo-node-tdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DouglasLeal/estudo-node-tdd/issues"
+  },
+  "homepage": "https://github.com/DouglasLeal/estudo-node-tdd#readme",
+  "dependencies": {
+    "@jest/globals": "^29.4.3",
+    "jest": "^29.4.3",
+    "supertest": "^6.3.3"
+  }
+}
